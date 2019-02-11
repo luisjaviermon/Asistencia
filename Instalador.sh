@@ -17,6 +17,13 @@ pagina de ayuda: http://www.w3big.com/es/linux/default.html
 			local x=$2
 			echo $1 "este es" $2
 		*salida: hola mundo este es 212
+
+->dependencias necesarias
+	-apache ()
+	-php(5.3 preserente o 5.*)
+	-postgress
+	-ssh (tal vez)
+	-
 :
 
 #------------Pendientes------------
